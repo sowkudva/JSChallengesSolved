@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: cadetblue;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: aliceblue;
+  border: none;
+  border-bottom: 0.5px solid black;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.list {
+  width: 100%;
+}
+
+.list-items {
+  text-align: left;
+  padding: 10px 10px;
+  background-color: aliceblue;
+  border-radius: 2px;
+}
