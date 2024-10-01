@@ -1,3 +1,30 @@
+/* Eurepean Computer Manufacturer Assosciation ECMA
+
+Babel transspiles the js code to the features that is supported by the browsers.
+
+eg: JSX is not supported by browsers. Babel transpiles it to browser understandable code
+bundle size depends on the browser version, older the version, bigger the bundle size.
+
+*/
+
+/* 3 Ways to declare variables
+var, let, const
+var - is avaiable gloablly. declarations are hoisted but not the values.
+if u define it within the function, it will be function scoped
+
+let & const are block scoped. if u refer it before its initilaization declaration,  
+u get reference error & well know as TDZ */
+
+/* Function & Methods
+1) abc() -> is a function
+2) obj.abc() -> is amethod. function defind within an obj is called a method.
+3) this keyword inside a function is a window object
+4) if u do 'use strict', 'this' will be undefined inside a function
+5) Capitol letter function is called a function constructor & it is invoked by 'new' keyword, 
+'this' inside the function construtor is an empty object
+6) 
+*/
+
 /* TOPIC Class BASED INHERITANCE , class is a ES6 feature*/
 class Person {
   // this method goes on the Person.prototype
